@@ -35,7 +35,7 @@ public class MainApp {
          System.out.println();
       }
 
-      User user = userService.getUserByCar("Toyota", 101);
+      User user = userService.getUserByCar("BMW", 440);
       if (user == null) {
          System.out.println("There are no users with such car");
       } else {
